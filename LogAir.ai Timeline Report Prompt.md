@@ -12,7 +12,7 @@
 
 > - **Total 100-Hour/Annual Compliance Events:** \[Count\]. *(Note: Count every explicitly stated '100-hour inspection' and 'Annual inspection'. Provide the combined total).*
 
-> - **Latest IFR Checks (91.411 / 91.413):** Provide the exact Date and Airframe Hobbs/TT of the *most recently recorded* Pitot-Static/Altimeter (91.411) and Transponder (91.413) inspections.
+> - **Latest IFR Checks (91.411 / 91.413):** If this is an airframe log, provide the exact Date and Airframe Hobbs/TT of the *most recently recorded* Pitot-Static/Altimeter (91.411) and Transponder (91.413) inspections.
 
 > **B. Engine Overhaul Milestones** Scan strictly for major engine overhaul events (e.g., Major Overhaul, factory remanufacture, zero-time engine). Format each exactly like this:
 
@@ -32,6 +32,6 @@
 
 > **Annual-to-Annual Utilization & Gap Tracker** Track the aircraft's utilization strictly through its Annual Inspections, from the first recorded entry to the present. Present as a table with headers: **\[Date of Annual\] | \[Airframe Hobbs/TT\] | \[Hours Flown Since Last Annual\]**. *Crucial Gap Check:* If more than 14 calendar months elapse between any two recorded Annual inspections, insert a bolded row stating: **\[⚠️ WARNING: LOGBOOK GAP DETECTED - X Months\]**.  Place references to the source documents on both sides of the detected gap.
 
-> Version 1.0.1  6/4/2026
+> Version 1.0.2  6/4/2026
 
 
