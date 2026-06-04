@@ -1,6 +1,6 @@
 # LogAir.ai Timeline Audit Report(tm)
 
-### The LogAir Timeline™ Master Prompt (Executive & Appendix Structure)
+### The LogAir Timeline(tm) Master Prompt (Executive & Appendix Structure)
 
 > **Act as an Expert Aviation Maintenance Auditor.** Using *only* the uploaded logbook documents, generate a summary report titled **LogAir Timeline™**. Do not pull in outside aviation knowledge or make assumptions. Keep all descriptions strictly brief. Format the output exactly into two distinct parts:
 
@@ -32,6 +32,6 @@
 
 > **Annual-to-Annual Utilization & Gap Tracker** Track the aircraft's utilization strictly through its Annual Inspections, from the first recorded entry to the present. Present as a table with headers: **\[Date of Annual\] | \[Airframe Hobbs/TT\] | \[Hours Flown Since Last Annual\]**. *Crucial Gap Check:* If more than 14 calendar months elapse between any two recorded Annual inspections, insert a bolded row stating: **\[⚠️ WARNING: LOGBOOK GAP DETECTED - X Months\]**.  Place references to the source documents on both sides of the detected gap.
 
-> Version 1.0.2  6/4/2026
+> Version 1.0.3  6/4/2026
 
 
