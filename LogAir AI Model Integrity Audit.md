@@ -1,4 +1,4 @@
-# LogAir AI Model Integrity Audit™ 
+# LogAir AI Model Integrity Audit(tm) 
 
 
 ***Act as an Aviation Quality Assurance Auditor. Review the uploaded maintenance logbooks and generate a 'Transcription Safety and Accuracy Report' to warn the end-user of potentially corrupted data. Present this report as a table with the following columns:**
