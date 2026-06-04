@@ -23,4 +23,4 @@ C) Before generating the final Logbook Summary, evaluate the legibility and data
 
 ***Print the Data Integrity Grade at the very top of the report, followed by a one-sentence justification for the grade, and a list of specific page numbers that caused any downgrades.**
 
-
+Version: 1.2.2 6/4/2026
