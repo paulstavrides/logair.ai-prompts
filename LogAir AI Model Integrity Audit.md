@@ -2,7 +2,7 @@
 
 ***Act as an Aviation Quality Assurance Auditor. Review the uploaded maintenance logbooks and generate a 'Transcription Safety and Accuracy Report' to warn the end-user of potentially corrupted data. Present this report as a table with the following columns:**
 
-A) For each source, output the Source file name at the top of the table bolded.  Summarize the number of maintenance events in the source.  Determine a figure of merit for the number of maintenance questionabled maintenance events / total number of maintenance events * 100 as a percent
+A) For each source, output the Source file name at the top of the table bolded.  Summarize the number of maintenance events in the source.  Determine a figure of merit for the source.  This is computed as: 100 - (number of maintenance questionabled maintenance events / total number of maintenance events * 100) as a percent
 
 B) 1. **Page Number / Date Range / Hobbs Time:** Identify the specific page or entry.   
 2. **Estimated Legibility Score (1-10):** Grade how clear and legible the original handwriting appears to you (10 is pristine, 1 is heavily faded or illegible).   
