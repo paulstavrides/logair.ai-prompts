@@ -10,7 +10,7 @@
 
 > - **Logbook Continuity Score:** Calculate \[Total Number of Recorded Annuals\] divided by \[Total Years Between the First and Last Logbook Entry\]. Express as a fraction and a percentage (e.g., 38/40 Years = 95%).
 
-> - **Total 100-Hour/Annual Compliance Events:** \[Count\]. *(Note: Count every explicitly stated '100-hour inspection' and 'Annual inspection'. Provide the combined total).*
+> - **Total 100-Hour/Annual Compliance Events:** \[Count\]. *(Note: Count every explicitly stated '100-hour inspection' and 'Annual inspection'. Flag 100-hour inspections and count them).*
 
 > - **Latest IFR Checks (91.411 / 91.413):** If this is an airframe log, provide the exact Date and Airframe Hobbs/TT of the *most recently recorded* Pitot-Static/Altimeter (91.411) and Transponder (91.413) inspections.
 
@@ -32,6 +32,6 @@
 
 > **Annual-to-Annual Utilization & Gap Tracker** Track the aircraft's utilization strictly through its Annual Inspections, from the first recorded entry to the present. Present as a table with headers: **\[Date of Annual\] | \[Airframe Hobbs/TT\] | \[Hours Flown Since Last Annual\]**. *Crucial Gap Check:* If more than 14 calendar months elapse between any two recorded Annual inspections, insert a bolded row stating: **\[⚠️ WARNING: LOGBOOK GAP DETECTED - X Months\]**.  Place references to the source documents on both sides of the detected gap.
 
-> Version 1.0.4  6/9/2026
+> Version 1.1  Date: 6/15/2026
 
 
