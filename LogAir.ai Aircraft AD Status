@@ -27,3 +27,5 @@ Generate a Markdown table with the exact columns and formatting instructions bel
 * Process ONLY the component type requested in the prompt. Ignore ADs explicitly for other subsections (e.g., if analyzing Airframe, ignore Engine-only ADs).
 * Thoroughly integrate the supplied STC list. If an AD applies to an installed STC, you must evaluate and document it just like a primary component AD.
 * Do not hallucinate times or dates. If an exact Aircraft Total Time (ACTT) or mechanic signature is missing from the source logs for a specific entry, indicate "Unknown" or "--" rather than guessing.
+
+Version: 1.0 Date: 6/16/26
