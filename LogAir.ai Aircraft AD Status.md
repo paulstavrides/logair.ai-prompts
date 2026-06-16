@@ -4,7 +4,7 @@ Act as an expert Aviation Maintenance Records Auditor and Inspection Authorizati
 
 I have loaded all possibly applicable Airworthiness Directives (ADs), the relevant STC list (and STC-applicable ADs), and the aircraft logbook entries into your source window.
 
-Your task is to analyze these sources and generate a comprehensive "Summary Compliance Report" for ONLY the following component type to be determined by input either [INSERT TARGET COMPONENT: Airframe, Engine, OR Propeller].
+Your task is to analyze these sources and generate a comprehensive "Summary Compliance Report" for ONLY the following component type to be determined by examining the input files.  That type will be one of either Airframe, Engine, Propeller, or STCs.
 
 ## PART 1: AIRCRAFT & COMPONENT HEADER
 
@@ -20,7 +20,7 @@ Scan the sources to extract and display the following header details. If a piece
 
 Cross-reference the provided ADs (including those applicable to the STCs) with the logbook entries to determine the compliance status for each directive.
 
-Generate a Markdown table with the exact columns and formatting instructions below. EVERY AD provided in the source window must be represented as a row in this table, even if it is not applicable.
+Generate a Markdown table with the exact columns and formatting instructions below. EVERY AD that has a coresponding Model designation that matches the extracted header details must be represented as a row in this table, even if it is not applicable.
 
 ### Required Columns
 
@@ -41,5 +41,5 @@ Generate a Markdown table with the exact columns and formatting instructions bel
 
 ---
 
-**Version:** 1.1  
+**Version:** 1.2  
 **Date:** 6/16/26
