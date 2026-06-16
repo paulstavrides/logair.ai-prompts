@@ -38,8 +38,9 @@ Generate a Markdown table with the exact columns and formatting instructions bel
 - Ignore ADs that are not for the model of aircraft being analyzed.  There may be ADs in the AD file that are for different models of aircraft.  
 - Thoroughly integrate the supplied STC list. If an AD applies to an installed STC, you must evaluate and document it just like a primary component AD.
 - Do not hallucinate times or dates. If an exact Aircraft Total Time (ACTT) or mechanic signature is missing from the source logs for a specific entry, indicate "Unknown" or "--" rather than guessing.
+- Order the results as No Evidence of Complied With, Recurring, Complied With, and then N/A.  For recurring ADs show the last date they were complied with.
 
 ---
 
-**Version:** 1.2  
+**Version:** 1.3  
 **Date:** 6/16/26
