@@ -44,3 +44,4 @@ Generate a Markdown table with the exact columns and formatting instructions bel
 
 **Version:** 1.3  
 **Date:** 6/16/26
+Copyright - LogAir.ai -- all rights reserved
