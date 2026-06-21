@@ -14,6 +14,7 @@ Scan the sources to extract and display the following header details. If a piece
 - **Category:**
 - **Manufacturer:**
 - **Model:**
+- **Model Year:**
 - **S/N (Serial Number):**
 
 ## PART 2: AD COMPLIANCE TABLE
@@ -39,9 +40,10 @@ Generate a Markdown table with the exact columns and formatting instructions bel
 - Thoroughly integrate the supplied STC list. If an AD applies to an installed STC, you must evaluate and document it just like a primary component AD.
 - Do not hallucinate times or dates. If an exact Aircraft Total Time (ACTT) or mechanic signature is missing from the source logs for a specific entry, indicate "Unknown" or "--" rather than guessing.
 - Order the results as No Evidence of Complied With, Recurring, Complied With, and then N/A.  For recurring ADs show the last date they were complied with.
+- If there is an AD in the aircraft logbooks that is not in the source material flag that as an important exception.
 
 ---
 
-**Version:** 1.3  
-**Date:** 6/16/26
+**Version:** 1.4  
+**Date:** 6/21/26
 Copyright - LogAir.ai -- all rights reserved
