@@ -20,6 +20,16 @@ or guess.
 
 6. Any 337 major alteration entries: date and description.
 
+7. Current aircraft total time (Hobbs or tach hours)
+
+8. Any equipment known to have been REMOVED and not replaced
+     (e.g. heaters, specific avionics, original components replaced by STC)
+
+9. ELT make, model, and battery type if recorded
+
+10. Magneto make and model (current, after any replacements)
+
+
 Do not use any manufacturer names, model designations, or AD numbers
 that do not appear verbatim in the uploaded documents.
 
