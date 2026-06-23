@@ -60,4 +60,4 @@ Format your response as markdown using this structure:
 
 **Version:** 1.0  
 **Date:** 6/23/26
-**Copyright - LogAir.ai -- all rights reserved
+**Copyright** LogAir.ai -- all rights reserved
