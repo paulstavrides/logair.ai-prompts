@@ -1,3 +1,4 @@
+ ## Query:
   Using ONLY the information in the uploaded documents (maintenance logs
   and TCDS), extract the following. If a piece of information is not
   explicitly stated in the documents, write "NOT FOUND" — do not infer
@@ -23,9 +24,9 @@
   Do not use any manufacturer names, model designations, or AD numbers
   that do not appear verbatim in the uploaded documents.
 
-Output:
+## Output:
   Output this information in markdown format.
 
-Vresion 1.0
-Date: 6/23/26
-Copyright LogAir.ai  All rights reserved
+**Version:** 1.0  
+**Date:** 6/23/26
+Copyright - LogAir.ai -- all rights reserved
