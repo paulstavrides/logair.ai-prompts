@@ -1,4 +1,4 @@
-# LogAir.ai General Aircraft Logbook Analysis (tm)
+# LogAir.ai Top Level Aircraft Analysis Report(tm)
 
 Scan the logbooks for any signs of major damage or structural repairs. Specifically search for and list dates and details for:
 1. Gear-up landings or prop strikes: Keywords like 'gear-up', 'belly landing', 'prop strike', 'sudden stoppage', 'dial indicator', 'crankshaft runout'.
