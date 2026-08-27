@@ -24,5 +24,7 @@ C) Before generating the final Logbook Summary, evaluate the legibility and data
 
 ***Print the Data Integrity Grade at the very top of the report, followed by a one-sentence justification for the grade, and a list of specific page numbers that caused any downgrades.**
 
-Version: 1.3 Date: 6/15/2026
+D) Print the time it took to run this report in minutes:seconds
+
+Version: 1.4 Date: 8/15/2026
 Copyright - LogAir.ai -- all rights reserved
