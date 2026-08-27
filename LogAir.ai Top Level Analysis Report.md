@@ -26,6 +26,8 @@ Review the electrical, avionics, and final compliance status:
 3. Electrical Faults: References to 'autopilot servos', 'chafed wiring', 'short circuit', or 'intermittent dropouts'.
 4. Compliance & Paperwork: List complied with (C/W) Airworthiness Directives (ADs) and recurring ADs. Note any mentions of 'lost logbooks', 'duplicate logbook', or 'reconstructed records'.
 
-Ver: 1.0
-Date: 6/28/2026
+Print the time it took to run this report in minutes:seconds
+
+Ver: 1.2
+Date: 8/27/2026
 Copyright Locair.ai -- All rights reserved.
