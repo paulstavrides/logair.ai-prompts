@@ -68,6 +68,9 @@ Format your response as markdown using this structure:
   found in the documents that may affect AD applicability]
 
 
-**Version:** 1.0  
-**Date:** 6/23/26
+
+Print the time it took to run this report in minutes:seconds
+
+**Version:** 1.2  
+**Date:** 8/23/26
 **Copyright** LogAir.ai -- all rights reserved
