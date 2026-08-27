@@ -44,6 +44,8 @@ Generate a Markdown table with the exact columns and formatting instructions bel
 
 ---
 
-**Version:** 1.4  
-**Date:** 6/21/26
+Print the time it took to run this report in minutes:seconds
+
+**Version:** 1.5  
+**Date:** 8/21/26
 Copyright - LogAir.ai -- all rights reserved
