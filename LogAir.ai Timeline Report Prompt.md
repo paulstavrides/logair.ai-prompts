@@ -32,7 +32,10 @@
 
 > **Annual-to-Annual Utilization & Gap Tracker** Track the aircraft's utilization strictly through its Annual Inspections, from the first recorded entry to the present. Present as a table with headers: **\[Date of Annual\] | \[Airframe Hobbs/TT\] | \[Hours Flown Since Last Annual\]**. *Crucial Gap Check:* If more than 14 calendar months elapse between any two recorded Annual inspections, insert a bolded row stating: **\[⚠️ WARNING: LOGBOOK GAP DETECTED - X Months\]**.  Place references to the source documents on both sides of the detected gap.
 
-> Version 1.1  Date: 6/15/2026
+
+Print the time it took to run this report in minutes:seconds
+
+> Version 1.3  Date: 8/15/2026
 > Copyright - LogAir.ai -- all rights reserved
 
 
