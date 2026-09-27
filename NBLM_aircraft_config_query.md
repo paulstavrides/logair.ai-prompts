@@ -40,8 +40,10 @@ reference documents, not records of this aircraft.
     (e.g. heaters, specific avionics, original components replaced by STC).
 
 11. Installed equipment: every appliance or accessory currently installed,
-    as recorded in the logs, with make, model, part number, and serial
-    number. Leave out anything listed under Removed Equipment. Cover at
+    as recorded in the logs, with its type, make, model, part number, and
+    serial number. Type is what the unit is, in a few plain words (e.g.
+    Transponder, Vacuum pump, Shoulder harness, Induction air filter).
+    Leave out anything listed under Removed Equipment. Cover at
     least these categories, one line per unit:
     - Avionics: nav/com, GPS, transponder, audio panel, autopilot and its
       servos, displays, AHRS, traffic/terrain systems, ADS-B equipment
@@ -114,7 +116,7 @@ Format your response as markdown using this structure:
 - [equipment as written in document]
 
 ## Installed Equipment
-- [Category] | [Make] | [Model] | [Part Number] | [Serial Number] | [Position]
+- [Category] | [Type] | [Make] | [Model] | [Part Number] | [Serial Number] | [Position]
   (one line per unit; write NOT FOUND for any unknown field, and "-" for
   Position when it does not apply)
 
@@ -122,6 +124,7 @@ Format your response as markdown using this structure:
 - [any configuration changes, component replacements, or ambiguities
   found in the documents that may affect AD applicability]
 
-**Version:** 1.4  
+**Version:** 1.5  
 **Date:** 9/26/26
 **Copyright** LogAir.ai -- all rights reserved
+
