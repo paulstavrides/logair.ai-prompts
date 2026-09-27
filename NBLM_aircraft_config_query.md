@@ -3,6 +3,9 @@ and TCDS), extract the following. If a piece of information is not
 explicitly stated in the documents, write "NOT FOUND" — do not infer
 or guess.
 
+Ignore any source whose title begins with "CANDIDATE AD LIST". Those are
+reference documents, not records of this aircraft.
+
 1. Airframe: make, model, serial number, year of manufacture.
    Use the exact text string as it appears in the TCDS header.
 
@@ -35,6 +38,29 @@ or guess.
 
 10. Any equipment known to have been REMOVED and not replaced
     (e.g. heaters, specific avionics, original components replaced by STC).
+
+11. Installed equipment: every appliance or accessory currently installed,
+    as recorded in the logs, with make, model, part number, and serial
+    number. Leave out anything listed under Removed Equipment. Cover at
+    least these categories, one line per unit:
+    - Avionics: nav/com, GPS, transponder, audio panel, autopilot and its
+      servos, displays, AHRS, traffic/terrain systems, ADS-B equipment
+    - Instruments: altimeter, airspeed, attitude, directional gyro, turn
+      coordinator, vertical speed, engine and fuel gauges and senders
+    - Restraints: seat belts and shoulder harnesses
+    - Fuel system: fuel pumps, fuel injection servos and nozzles, fuel
+      selector valves, fuel quantity senders
+    - Vacuum/pneumatic: vacuum pumps, vacuum regulators
+    - Electrical: alternators, starters, voltage regulators, batteries,
+      ignition switches, circuit breakers
+    - Engine accessories: oil filters and adapters, induction air filters,
+      propeller governors, oil coolers
+    - Lighting: beacons, strobes, landing and taxi lights
+    - Cabin: combustion heaters, fire extinguishers, oxygen equipment
+    - Landing gear: wheels, brakes, tires
+    If a unit is fitted to one engine or one side only, give its position.
+    Magnetos and the ELT have their own sections above; do not repeat
+    them here.
 
 Do not use any manufacturer names, model designations, or AD numbers
 that do not appear verbatim in the uploaded documents.
@@ -87,11 +113,15 @@ Format your response as markdown using this structure:
 ## Removed Equipment
 - [equipment as written in document]
 
+## Installed Equipment
+- [Category] | [Make] | [Model] | [Part Number] | [Serial Number] | [Position]
+  (one line per unit; write NOT FOUND for any unknown field, and "-" for
+  Position when it does not apply)
+
 ## Agent Notes
 - [any configuration changes, component replacements, or ambiguities
   found in the documents that may affect AD applicability]
 
-**Version:** 1.3  
+**Version:** 1.4  
 **Date:** 9/26/26
 **Copyright** LogAir.ai -- all rights reserved
-
