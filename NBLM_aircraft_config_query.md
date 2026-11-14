@@ -15,14 +15,9 @@ that do not appear verbatim in the documents.
    left first, each marked with its position, e.g.
    "10-357230-1 (Left) / 10-357230-2 (Right)".
 5. ELT: make, model, battery type if recorded.
-6. STCs: every STC number in the logs or TCDS, with its description
-   exactly as written.
-7. AD compliance: every AD number in the logs, copied exactly, with its
-   compliance date, or "<number> (Hobbs)" if tracked by Hobbs/tach time.
-8. 337 major alterations: date and description.
-9. Current time as of the latest entry: TTAF, Hobbs, flight Hobbs, and
+6. Current time as of the latest entry: TTAF, Hobbs, flight Hobbs, and
    heater Hobbs if there is a separate heater meter.
-10. Equipment REMOVED and not replaced.
+7. Equipment REMOVED and not replaced.
 
 Reply in this markdown:
 
@@ -48,12 +43,6 @@ Reply in this markdown:
 - Make:
 - Model:
 - Battery Type:
-## Installed STCs
-- [STC number]: [description]
-## AD Compliance on Record
-- [AD number]: [date, or "<value> (Hobbs)"]
-## Major Alterations (337s)
-- [date]: [description]
 ## Total Time / Current Aircraft
 - TTAF: [value] Hours
 - Hobbs: [value] Hours
@@ -64,6 +53,56 @@ Reply in this markdown:
 ## Agent Notes
 - [configuration changes, component replacements, or ambiguities that
   may affect AD applicability]
+
+<!-- NEXT QUESTION -->
+
+Using ONLY the information in the uploaded documents (maintenance logs
+and TCDS), extract the following. If a piece of information is not
+explicitly stated in the documents, write "NOT FOUND" — do not infer
+or guess. Ignore any source whose title begins with "CANDIDATE AD LIST".
+Do not use any manufacturer names, model designations, or AD numbers
+that do not appear verbatim in the documents.
+
+STCs: every STC number in the logs or TCDS, with its description
+   exactly as written.
+
+Reply with ONLY this markdown, no other text:
+
+## Installed STCs
+- [STC number]: [description]
+
+<!-- NEXT QUESTION -->
+
+Using ONLY the information in the uploaded documents (maintenance logs
+and TCDS), extract the following. If a piece of information is not
+explicitly stated in the documents, write "NOT FOUND" — do not infer
+or guess. Ignore any source whose title begins with "CANDIDATE AD LIST".
+Do not use any manufacturer names, model designations, or AD numbers
+that do not appear verbatim in the documents.
+
+337 major alterations: date and description of each.
+
+Reply with ONLY this markdown, no other text:
+
+## Major Alterations (337s)
+- [date]: [description]
+
+<!-- NEXT QUESTION -->
+
+Using ONLY the information in the uploaded documents (maintenance logs
+and TCDS), extract the following. If a piece of information is not
+explicitly stated in the documents, write "NOT FOUND" — do not infer
+or guess. Ignore any source whose title begins with "CANDIDATE AD LIST".
+Do not use any manufacturer names, model designations, or AD numbers
+that do not appear verbatim in the documents.
+
+AD compliance: every AD number in the logs, copied exactly, with its
+compliance date, or "<number> (Hobbs)" if tracked by Hobbs/tach time.
+
+Reply with ONLY this markdown, no other text:
+
+## AD Compliance on Record
+- [AD number]: [date, or "<value> (Hobbs)"]
 
 <!-- NEXT QUESTION -->
 
@@ -103,6 +142,6 @@ Reply with ONLY this markdown, no other text:
 ## Installed Equipment
 - [Category] | [Type] | [Make] | [Model] | [Part Number] | [Serial Number] | [Position]
 
-**Version:** 2.0  
-**Date:** 10/17/26
+**Version:** 3.0  
+**Date:** 11/14/26
 **Copyright** LogAir.ai -- all rights reserved
